@@ -1,0 +1,56 @@
+/* Set font family globally - from design document everything is Helvetica */
+
+h1,
+h2,
+h3,
+p {
+  font-family: Helvetica;
+}
+
+/* Set specifics for the h1  */
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+/* Set specifics for the h2 used across different divs  */
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Set specifics for the h2 used for brushes div  */
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+/* Set specifics for the h2 used for frames div  */
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+/* Set specifics for the h2 used for paint div  */
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+/* Set specifics for the strong areas across all divs - in future look to break out if other strongs require specific settings  */
+
+strong {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Set specifics for the background for the h1  */
+
+#desmototitle h1 {
+  background-image: url("../pattern.jpeg");
+}
